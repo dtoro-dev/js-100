@@ -1,0 +1,19 @@
+@import url("./parpadeo.css");
+@import url("./keyboard.css");
+
+@font-face {
+  font-family: "8bit-wonder";
+  src: url("./fonts/PressStart.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font-8bit {
+  font-family: "8bit-wonder", Arial, Helvetica, sans-serif;
+}
