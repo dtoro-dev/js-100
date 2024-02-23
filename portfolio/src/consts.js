@@ -1,8 +1,8 @@
 export const PROJECTS = [
   {
     slug: '01-tinder-swipe',
-    title: 'Tinder Swipe',
-    description: 'Tinder swipe effect with HTML, CSS y vanilla JavaScript',
+    title: 'Tindev Swipe',
+    description: 'Tinder clone called Tindev swipe effect with HTML, CSS y vanilla JavaScript',
     learnings: [
       "DOM",
       "Animaciones con gestos",
