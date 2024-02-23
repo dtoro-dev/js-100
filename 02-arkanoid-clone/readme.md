@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://www.javascript100.dev">
-    <img src="../02-arkanoid-clone/images/frontpage/home.png" /> 
+    <img src="./assets/images/frontpage/home.png" /> 
     </a>
   <h3>
     <strong>ArkanScript inspired by Arkanoid and guided by midudev</strong>
@@ -16,3 +16,20 @@
 
 </div>
 
+<div align="center">
+    <a href="https://www.javascript100.dev">
+    <img src="./assets/images/frontpage/game.png" /> 
+    </a>
+  <h3>
+    <strong>ArkanScript - Playing</strong>
+  </h3>
+</div>
+
+<div align="center">
+    <a href="https://www.javascript100.dev">
+    <img src="./assets/images/frontpage/game-over.png" /> 
+    </a>
+  <h3>
+    <strong>ArkanScript - Game Over</strong>
+  </h3>
+</div>

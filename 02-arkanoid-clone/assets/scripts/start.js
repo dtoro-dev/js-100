@@ -1,6 +1,6 @@
 const soundPress = (sound = "start") => {
   const audio = document.querySelector('.audio-play');
-  audio.src = `./sounds/${sound}.mp3`;
+  audio.src = `./assets/sounds/${sound}.mp3`;
   audio.play();
 }
 
