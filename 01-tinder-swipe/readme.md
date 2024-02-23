@@ -1,9 +1,9 @@
 <div align="center">
-    <!-- <a href="https://www.javascript100.dev">
-    <img src="../02-arkanoid-clone/images/frontpage/home.png" />  -->
-    <!-- </a> -->
+    <a href="https://www.javascript100.dev">
+    <img src="./assets/images/frontpage/home.png" /> 
+    </a>
   <h3>
-    <strong>WORKING</strong>
+    <strong>Tindev inspired by Tinder and guided by midudev</strong>
   </h3>
 </div>
 
@@ -14,4 +14,3 @@
 ![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
 
 </div>
-

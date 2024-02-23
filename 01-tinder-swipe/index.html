@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tinder Swipe</title>
+    <link rel="stylesheet" href="./assets/styles/global.css" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="creator-by flex justify-between">
+      <div class="creator-by__card flex justify-center items-center gap-2">
+        <span>Inspired by Tinder</span>
+        <div class="border-r border-black border-1 h-7"></div>
+        <span>Guided by Midudev</span>
+        <div class="border-r border-black border-1 h-7"></div>
+        <span>Development DtoroDev</span>
+      </div>
+      <div class="creator-by__card flex items-center justify-center gap-2">
+        <img class="w-7 h-7 rounded-[2px]" src="./assets/images/icon/javascript.svg" alt="Javascript" />
+        <img class="w-7 h-7" src="./assets/images/icon/html.svg" alt="HTML" />
+        <img class="w-7 h-7" src="./assets/images/icon/css.svg" alt="CSS3" />
+        <img class="w-7 h-7" src="./assets/images/icon/tailwind.svg" alt="Tailwind" />
+        <div class="border-r border-black border-1 h-7"></div>
+        <a
+          title="LinkedIn Profile"
+          target="_blank"
+          href="https://www.linkedin.com/in/diego-toro-reyes-7145ba136"
+          rel="noopener"
+        >
+          <img class="w-7 h-7" src="./assets/images/icon/linkedin.svg" alt="LinkedIn Profile" />
+        </a>
+        <a
+          target="_blank"
+          href="https://github.com/dtoro-dev"
+          rel="noopener"
+          title="GitHub Profile"
+        >
+          <img class="w-6 h-6" src="./assets/images/icon/github.svg" alt="GitHub Profile" />
+        </a>
+      </div>
+    </div>
+    <div class="shadow">
+      <main>
+        <section>
+          <div class="white-bkg"></div>
+          <header>
+            <h1>Tindev</h1>
+            <img src="./assets/images/tinder.svg" alt="Tinder Logo" />
+          </header>
+          <div class="cards">
+            <article>
+              <img src="./assets/images/1.webp" alt="Profile Image" />
+              <div class="info-profile">
+                <h2 class="text-lg font-bold">Jane Doe <span>23</span></h2>
+                <p>Frontend Developer</p>
+              </div>
+              <div class="choice nope">NOPE</div>
+              <div class="choice like">LIKE</div>
+            </article>
+            <article>
+              <img src="./assets/images/2.webp" alt="Profile Image" />
+              <div class="info-profile">
+                <h2 class="text-lg font-bold">John Doe <span>25</span></h2>
+                <p>Software Engineer</p>
+              </div>
+              <div class="choice nope">NOPE</div>
+              <div class="choice like">LIKE</div>
+            </article>
+            <span>
+              No hay más personas cerca de ti... <br />
+              Vuelve a intentarlo más tarde.
+            </span>
+          </div>
+  
+          <footer>
+            <button class="is-undo" aria-label="undo"></button>
+            <button class="is-remove is-big" aria-label="remove"></button>
+            <button class="is-start" aria-label="star"></button>
+            <button class="is-fav is-big" aria-label="fav"></button>
+            <button class="is-zap" aria-label="zap"></button>
+          </footer>
+        </section>
+      </main>
+    </div>
+    <script src="./assets/script/swipe.js"></script>
+  </body>
+</html>
